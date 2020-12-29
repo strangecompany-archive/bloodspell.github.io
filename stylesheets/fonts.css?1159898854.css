@@ -1,0 +1,48 @@
+/* ******************************************
+	Bloodspell.com fontography ruleset
+	
+	by Hugh Hancock & Johnnie Ingram
+	October 2005
+	
+	**************************************** */
+	
+body
+{
+	font-family: sans-serif;
+	font-size: 10pt; 
+}
+
+.topquote
+{
+	font-size: large;
+font-weight: strong; 
+	text-align: right;
+background-color: rgb(255, 238, 238); 
+border: thin solid #777; 
+padding: 3px; 
+}
+
+.download
+{
+	font-size: large;
+	text-align: center;
+}
+
+#topquoteorigin
+/* Who said the quote */
+{
+	font-size: xx-small;
+}
+
+h2
+{
+font-variant: small-caps;
+}
+
+h4
+{
+    font-size: 125%;
+    font-weight: bold; 
+    margin: 0px; 
+    padding: 0px; 
+}

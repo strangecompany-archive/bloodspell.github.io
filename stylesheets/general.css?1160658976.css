@@ -1,0 +1,244 @@
+body
+  {
+  	text-align: center; /* make with the cleverness */
+  	background: #333366 url(../images/v2/Background-single-pixel.jpg) repeat-x top;
+  	padding: 0px;
+  	margin-top: 0px; 
+  	margin-bottom: 0px; 
+  }
+  #container {
+  margin: 0 auto;
+  padding-bottom: 20px; 
+  text-align: left;
+  width: 829px;
+  min-height: 700px; 
+  background: url(../images/v2/mainframe_background.jpg) repeat-y 0px 0px ;
+  
+  }
+  #header {
+  height: 278px;
+  background: url(../images/v2/Main-background_01.jpg) no-repeat;
+  margin-bottom: -170px;
+  }
+  #content
+  {
+  	position: relative; 
+  	left: 150px;
+  	width: 650px;
+  	text-align: left;
+  }
+  #left
+  {
+  	float:left;
+  	width: 110px;
+  	margin-left: 15px !important;
+  	margin-left: 7px;
+  	margin-right: -150px;
+  	padding: 5px;
+  	overflow: hidden; 
+  }
+  
+   .menuleft{ position: relative; top: 90px; left: -20px; width: 320px; font: bold 12px arial; text-align: left; word-spacing: 10px; }
+  .menuright{ position: relative; top: 75px; width: 340px; left: 520px; font: bold 12px arial; text-align: left; word-spacing: 10px;}
+    .menu a{color: white; text-decoration: none}
+  .menu a:hover{color: red}
+  
+  #breadcrumb
+  {
+   text-align: right;
+   margin-bottom:-35px;
+   font-size: 0.7em;
+  }
+  
+  /* CastCrew specific tags */
+  .castcrew_box
+  {
+    margin: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*height: 275px;*/
+    height: 275px;
+    border: lightgrey thin solid;
+    padding-top:0;    
+  }
+  
+  .castcrew_subbox
+  {
+    float: left;
+    padding: 5px;
+    height: auto;
+  }
+  
+  #castcrew_subbox_left
+  {
+    width: 180px;
+    margin-right: 10px;
+  }
+  
+  #castcrew_subbox_right
+  {
+    width: 400px;
+  }
+  
+  .castcrew_name
+  {
+    background-color: lightgrey;
+    font-size: 175%;
+    font-weight: bold; 
+    width: 100%;
+  }
+  
+    /* Band specific tags */
+  .band_box
+  {
+    margin: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*height: 275px;*/
+    height: 345px;
+    border: lightgrey thin solid;
+    padding-top:0;    
+  }
+  
+  
+  /* Forum stuff */
+  
+    #forum_subbox_right
+  {
+    width: 180px;
+    margin-right: 10px;
+    float: right; 
+    padding: 5px;
+    margin-right: -0px; 
+    height: auto;
+    background-color: #EEE; 
+  }
+  
+    .forum_box
+  {
+    margin: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: auto;
+    border: lightgrey thin solid;
+    padding-top:0;    
+  }
+  
+  /*Download stuff*/
+  
+  .download_table
+  {
+  border: thin black dotted;
+  font-size: 10px; 
+  border-collapse: collapse; 
+  }
+  
+  /* ULs redefined for lists of feeds */
+  ul.feed
+  {
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+  }
+  
+    li.subtitle_feed
+    {
+        background: url(../images/v2/feed_edit.png) 0 0 no-repeat;
+        padding-left: 18px;
+        margin-bottom: 6px;
+    }
+    
+    li.standard_feed
+    {
+        background: url(../images/v2/feed.png) 0 0 no-repeat;
+        padding-left: 18px;
+        margin-bottom: 6px;
+    }    
+
+    li.vidcast_feed
+    {
+        background: url(../images/v2/feed_disk.png) 0 0 no-repeat;
+        padding-left: 18px;
+        margin-bottom: 6px;
+    }    
+    
+   a#watch_button
+    {
+        display: block;
+        color: White;
+        /* visibility: hidden; */
+        background: url(../images/v2/watch_button_2.gif) 0 0 no-repeat;
+        width: 110px;
+        height: 60px;
+        z-index: 10;
+    }
+    
+    a#watch_button:hover
+    {
+        display: block;
+        color: White;
+        /* visibility: hidden; */
+        background: url(../images/v2/watch_button_2_over.gif) 0 0 no-repeat;
+        width: 110px;
+        height: 60px;
+        z-index: 10;
+    }
+    
+    a#subscribe_button
+    {
+        display: block;
+        color: White;
+        /* visibility: hidden; */
+        background: url(../images/v2/subscribe_button_2.gif) 0 0 no-repeat;
+        width: 110px;
+margin-top: -10px; 
+        height: 60px;
+    }
+    
+    a#subscribe_button:hover
+    {
+        display: block;
+        color: White;
+        /* visibility: hidden; */
+        background: url(../images/v2/subscribe_button_2_over.gif) 0 0 no-repeat;
+margin-top: -10px; 
+        width: 110px;
+        height: 60px;
+    }
+    
+    div#pushedfilms
+    /* A wrapper for the latest and first episodes on the watch page */
+    {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    div.watchbox
+    /* The boxes that wrap around latest and first episodes on watch page */
+    {
+        width: 303px;
+        float: left;
+        position: relative;
+        background-color: #FEE;
+        border:solid black thin;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+
+    div.filmlist
+    /* List of all films on the watch page */
+    {
+        clear: both;
+    }
+    
+    
+    
